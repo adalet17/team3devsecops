@@ -11,7 +11,9 @@ steps {
                   ***
 
    }
-  }
+   Stage { 'Source Composition Analysis'} {
+     Stage {
+  } 
   stage {'build'} {
   in 'mvn clean package'
   } 
